@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+        "jsx": "react",
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+		"esModuleInterop": true,
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["next-env.d.ts", "additional.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "server/addelems.ts"],
+	"exclude": ["node_modules"]
+}
